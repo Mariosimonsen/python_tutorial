@@ -1,4 +1,5 @@
-'''Calculator file'''
+# List of calculator functions need to be added
 
-def main():
-    print('hello world')
+def add(number1,number2):
+    return print(number1 + number2)
+
