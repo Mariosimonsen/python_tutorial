@@ -17,6 +17,9 @@ def truediv(number1,number2):
     return print(number1 // number2)
 
 def sqrt(number1):
-   return print (number1**(1/2)) # Can use this fuction if math module is imported:  def sqrt(number1): return print (math.sqrt(number1))
+   return print (number1 ** (1/2)) # Can use this fuction if math module is imported:  def sqrt(number1): return print (math.sqrt(number1))
 
-sqrt(25)
+def exp(number1,number2):
+    return print(number1 ** number2)
+
+exp(3,8)
