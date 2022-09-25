@@ -20,6 +20,5 @@ def sqrt(number1):
    return print (number1 ** (1/2)) # Can use this fuction if math module is imported:  def sqrt(number1): return print (math.sqrt(number1))
 
 def exp(number1,number2):
-    return print(number1 ** number2)
+    return print(number1 ** number2) #  (2.718281828459045 ** number1) unsure which function to add. 
 
-exp(3,8)
