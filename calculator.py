@@ -12,3 +12,6 @@ def multi(number1, number2):
 def div(number1, number2):
     return print(number1/number2)
 
+def truediv(number1,number2):
+    return print(number1 // number2)
+
