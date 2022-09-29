@@ -26,6 +26,16 @@ while True:
         num_1 = int(num_1)
         break
 
+# lage en while loop for num_2
+
 num_2 = 34
 my_operator = math_operators[index_of_operator]
 print(my_operator(num_1, num_2))
+
+
+# lag en ny fil. 
+# gjør alt det samme, men samle inn tall med en input
+# string -> split -> lager en liste. "34 54".split() -> ['34', '54']
+# sjekke at man har to tall
+# converters til faktiske tall
+# lese om Dictionary.
