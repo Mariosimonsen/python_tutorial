@@ -28,7 +28,15 @@ while True:
 
 # lage en while loop for num_2
 
-num_2 = 34
+while True:
+    num_2 = input('Skriv inn det andre tallet: ')
+    if not num_2.isdecimal():
+        print('Ugyldig tall, prøv igjen')
+        continue
+    else:
+        num_2 = int(num_2)
+        break
+    
 my_operator = math_operators[index_of_operator]
 print(my_operator(num_1, num_2))
 
