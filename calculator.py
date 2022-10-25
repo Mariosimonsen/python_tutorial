@@ -2,7 +2,7 @@
 
 from operator import add, sub, mul, truediv, mod, pow
 
-op = {
+operators = {
     '+': add,
     '-': sub,
     '*': mul,
