@@ -1,24 +1,12 @@
 # List of calculator functions need to be added
 
+from operator import add, sub, mul, truediv, mod, pow
 
-def add(number1,number2):
-    return number1 + number2
-
-def sub(number1, number2):
-    return number1 - number2
-
-def multi(number1, number2):
-    return number1 * number2
-
-def div(number1, number2):
-    return number1 / number2
-
-def truediv(number1,number2):
-    return number1 // number2
-
-def sqrt(number1):
-   return number1 ** (1/2) # Can use this fuction if math module is imported:  def sqrt(number1): return print (math.sqrt(number1))
-
-def exp(number1,number2):
-    return number1 ** number2 #  (2.718281828459045 ** number1) unsure which function to add. 
-
+op = {
+    '+': add,
+    '-': sub,
+    '*': mul,
+    '/': truediv,
+    '%': mod,
+    '**': pow
+}
