@@ -40,10 +40,3 @@ while True:
 my_operator = math_operators[index_of_operator]
 print(my_operator(num_1, num_2))
 
-
-# lag en ny fil. 
-# gjør alt det samme, men samle inn tall med en input
-# string -> split -> lager en liste. "34 54".split() -> ['34', '54']
-# sjekke at man har to tall
-# converters til faktiske tall
-# lese om Dictionary.
