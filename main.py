@@ -1,4 +1,4 @@
-from calculator import add, sub, multi, truediv, div
+from calculator import add, sub, mul, truediv, truediv
 
 valid_operators = ('add', 'sub', 'multi', 'truediv', 'div')
 
@@ -11,7 +11,7 @@ while True:
         print('du valgte ikke en gyldig operator, prøv igjen!\n')
 
 
-math_operators = (add, sub, multi, truediv, div)
+math_operators = (add, sub, mul, truediv, truediv)
 
 #'add' er i index 0
 
